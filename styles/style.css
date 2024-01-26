@@ -155,12 +155,12 @@ body {
         justify-content: center;
     }
 
-    .presentation {
+    .presentation, .presentation__about {
        flex-direction: column-reverse;
        padding: 5%;
     }
 
-    .presentation__content {
+    .presentation__content, .presentation__about__content {
         width: auto;
     }
 }
@@ -170,7 +170,7 @@ body {
         height: 100%;
     }
     
-    .presentation__image {
+    .presentation__image  {
         width: auto;
         height: auto;
         
